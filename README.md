@@ -1,17 +1,73 @@
-# React + Vite
+# System Design Learning Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+This project is a frontend-first platform built to help developers understand system design in a structured and practical way.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The focus is on breaking down complex concepts into simple, visual, and interview-oriented explanations. Instead of just theory, the platform aims to show *how systems actually work* and how to think during interviews.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Why I Built This
 
-## Expanding the ESLint configuration
+While preparing for system design interviews, I noticed:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# Sysdesign
+* Most resources are either too theoretical or too scattered
+* There’s no clear learning path from basics → advanced topics
+* Understanding *how to think* is more important than memorizing answers
+
+So I built this to:
+
+* simplify system design concepts
+* provide a structured path
+* make interview prep more practical
+
+---
+
+## What This App Does
+
+* Covers core system design topics (scaling, caching, databases, etc.)
+* Breaks down real-world systems (like URL shortener, chat apps, etc.)
+* Focuses on interview thinking rather than just final answers
+* Provides clean and minimal UI for distraction-free learning
+
+---
+
+## Tech Stack
+
+* **Frontend**: React.js
+* **State Management**: (Context API / Redux – update if needed)
+* **Styling**: CSS / Tailwind (update if needed)
+* **Routing**: React Router
+
+This project is currently frontend-focused, with scope to extend into full-stack later.
+
+---
+
+## Key Features
+
+* Structured learning flow (beginner → advanced)
+* Topic-wise breakdown of system design concepts
+* Real-world system case studies
+* Clean and intuitive UI
+* Fast navigation and lightweight performance
+
+---
+
+## How to Run Locally
+
+```bash
+git clone <repo-url>
+cd <repo-name>
+
+npm install
+npm start
+
+---
+
+## Future Improvements
+
+* Add backend for user progress tracking
+* Add interactive diagrams and visual simulations
+* Add quizzes and interview practice mode
+* Add bookmarking and personalized learning path
